@@ -70,19 +70,3 @@ filter = np.where(array1 < 200000)
 bad_days_revenue = array1[filter]
 #정답 출력
 bad_days_revenue
-
-
-2. numpy array와 phthon list의 차이점
-  1) 문법 차이
-    - 덧셈: 
-          numpy - 각 인덱스 별로 더함.
-          list - 이어붙임.
-    - 뺄셈, 곱셈, 나눗셈: 
-          numpy: 잘 동작
-          list - 오류.
-    -  
-
-
-
- 
-
